@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: rgb(225, 129, 129);
+}
+.container {
+    min-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+h1 {
+    color: white;
+    font-size: 50px;
+}
+.todo-form {
+    margin: 40px 0px;
+     background-color: rgb(225, 175, 110);
+     padding: 25px 30px;
+     border-radius: 3px;
+}
+.task {
+    width: 250px;
+    outline: none;
+    border-radius: 3px;
+    padding: 12px;
+    border: 2px solid black;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.date {
+    width: 250px;
+    outline: none;
+    border-radius: 3px;
+    padding: 12px;
+    border: 2px solid black;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.taskBtn {
+    background-color: rgb(65, 65, 184);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 12px 20px;
+    font-size: 20px;
+}
+.row {
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 30px;
+    border: 5px solid black;
+
+}
+.table .thead .tr .tbody {
+    font-size: 20px;
+    display: table-cell;
+    vertical-align: inherit;
+    
+    
+    
+    
+}
+
